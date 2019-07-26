@@ -1,0 +1,20 @@
+{
+  "name": "full_stack_vue",
+  "version": "1.0.0",
+  "description": "full stack MEVN",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "tushar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
